@@ -1,12 +1,16 @@
 
 import './App.css'
 import ListTodocomponent from './components/ListTodocomponent'
+import HearderComonent from './components/HeaderComponent'
+import FooterComponent from './components/FooterComponent'
 function App() {
-  
+
 
   return (
     <>
-      <ListTodocomponent/>
+      <HearderComonent />
+      <ListTodocomponent />
+      <FooterComponent />
     </>
   )
 }

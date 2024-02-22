@@ -1,17 +1,12 @@
 
 import './App.css'
-import HelloWorld from './HelloWorld'
-
+import ListTodocomponent from './components/ListTodocomponent'
 function App() {
   
 
   return (
     <>
-    <HelloWorld />
-    <HelloWorld />
-    <HelloWorld />
-    <HelloWorld />
-    <HelloWorld />
+      <ListTodocomponent/>
     </>
   )
 }
